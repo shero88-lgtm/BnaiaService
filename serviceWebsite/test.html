@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <!-- swiper js --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Sdk link for Bootstrab CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- fontAwsome SDK link  --> 
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+     <!-- customization Css link file -->
+     <link rel="stylesheet" href="CSS/Style.css"> 
+    <title>Bnaia</title>
+</head>
+<body>  
+
+    <!-- navigation --> 
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <!-- Brand Image -->
+            <a class="navbar-brand" href="#"> 
+                <div class="bnaialogo me-1"> 
+                    <img src="https://i.ibb.co/WP5tKRy/bnaia-logo22.png" alt="Brand Logo">
+                </div>
+            </a>
+
+            <!-- Toggle Button for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> <!-- ms-auto pushes items to the left -->
+                    <li class="nav-item p-1">
+                        <a class="nav-link" aria-current="page" href="#">محترفون</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="nav-link" href="#">خدمات</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="nav-link" href="#">كتالوج الافكار</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="nav-link" href="#">المقالات</a>
+                    </li>
+                </ul>
+
+                <!-- Login and Sign Up Buttons -->
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-primary btn-custom m-2">تسجيل الدخول</a>
+                    <a href="#" class="btn btn-primary btn-custom m-2">انشاء حساب</a>
+                </div>
+            </div>
+        </div>
+    </nav> 
+    <section class="mainFeatures">
+        <div class="container">
+            <div class="row"> <!-- Use row class for Bootstrap grid -->
+    
+                <div class="col-lg-3 col-md-6 mb-4"> <!-- Add responsive classes and spacing -->
+                    <div class="feature">
+                        <img src="https://i.ibb.co/Jjb1J6V/furbishing-1.png" alt="Feature 1">
+                        <p>شطب بيتك</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature">
+                        <img src="https://i.ibb.co/hdyD2RZ/interior-design-1.png" alt="Feature 2">
+                        <p>اطلب تصميم</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature">
+                        <img src="https://i.ibb.co/9nkYSjD/furnitures-1.png" alt="Feature 3">
+                        <p>افرش بيتك</p>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature">
+                        <img src="https://i.ibb.co/2K5Yb9t/craftsman-1-1.png" alt="Feature 4">
+                        <p>اطلب فنى محترف</p>
+                    </div>
+                </div>
+    
+                <!-- New Feature -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="feature">
+                        <img src="https://example.com/new-feature-image.png" alt="Feature 5">
+                        <p>ميزة جديدة</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+  <style > 
+    .mainFeatures {
+    padding: 20px 0;
+}
+
+.feature {
+    background-color: #FAFAFA;
+    border: #B0CBE9 solid 1px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px; /* Added padding for better spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; /* Ensures the box takes full height of the column */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for better appearance */
+}
+
+.feature img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    padding-bottom: 10px; /* Space between image and text */
+}
+
+.feature p {
+    font-size: 18px; /* Adjusted font size for better responsiveness */
+    color: var(--primary-color);
+    margin: 0; /* Remove default margin */
+}
+
+/* Optional: Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .feature p {
+        font-size: 16px; /* Smaller font size for better fit */
+    }
+}
+
+
+  </style>    
+
+
+
+
+
+
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper overflow-hidden position-relative">
+        <div class="swiper-wrapper position-relative">
+            <div class="swiper-slide">
+                <img src="https://i.ibb.co/TLr70Jg/r-architecture-TRCJ-87-Yoh0-unsplash-1.jpg" alt="Slide 1">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.ibb.co/3f25G9c/hutomo-abrianto-9-Zvu-Wg8deho-unsplash.jpg" alt="Slide 2">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.ibb.co/6s6Gh76/aaron-huber-G7s-E2-S4-Lab4-unsplash.jpg" alt="Slide 3">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://i.ibb.co/d2wxhyc/jarek-ceborski-jn7u-Ve-Cdf6-U-unsplash.jpg" alt="Slide 4">
+            </div>
+        </div>
+
+       
+    </div> 
+
+     <!-- Main Value Box -->
+     <div class="main-value-box">
+        <p>أكبر سوق الكترونى للتشطيبات والديكور فى مصر</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
